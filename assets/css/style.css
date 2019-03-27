@@ -216,34 +216,8 @@ input[type=submit] {
   border: 0 none;
 }
 
-@media screen and (max-width :980px){
-  body {
-    background-color: #333;
-  }
-
-}
-
-
-
-
-@media screen and (max-width: 768px) {
-  /* The body's bg color will be #333 */
-  body {
-    background-color: #333;
-  }
-
-  /* The wrapper's width will be 600px */
-  .wrapper {
-    width: 600px;
-  }
-
-
-  @media screen and (max-width: 640px) {
-    body {
-      background-color: #333;
-    }
   
-    .wrapper {
+.wrapper {
       /* Box-model */
       width: 100%;
       padding: 20px;
@@ -257,37 +231,12 @@ input[type=submit] {
     #sidebar {
       margin-top: 40px;
     }
-  }
+  
   
   /* Additional Screen Sizes */
   
   /* Width at 320px and below */
-  @media screen and (max-width: 320px) {
-    body {
-      background-color: #333;
-    }
   
-    .wrapper {
-      /* Box-model */
-      width: 100%;
-      padding: 20px;
-    }
-  
-    #main-content,
-    #sidebar {
-      width: 100%;
-    }
-  
-    #sidebar {
-      margin-top: 40px;
-    }
-  }
-  
-  /* Width at 168px and below */
-  @media screen and (max-width: 168px) {
-    body {
-      background-color: #333;
-    }
   
     .wrapper {
       /* Box-model */
@@ -304,3 +253,22 @@ input[type=submit] {
       margin-top: 40px;
     }
   
+  /* Additional Screen Sizes */
+  
+  
+  
+    .wrapper {
+      /* Box-model */
+      width: 100%;
+      padding: 20px;
+    }
+  
+    #main-content,
+    #sidebar {
+      width: 100%;
+    }
+  
+    #sidebar {
+      margin-top: 40px;
+    }
+   
